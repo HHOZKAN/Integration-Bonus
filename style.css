@@ -1,0 +1,95 @@
+.container{
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   width: 75%;
+   margin:auto;
+}
+
+nav img {
+    width : 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.header1 {
+    background-color: salmon;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+.reseaux {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+ul a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+ul {
+    list-style-type: none;
+    text-align: start;
+  
+}
+
+.navcontact ul a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* NAV 2 */
+
+.grostitre {
+display: flex;
+flex-direction: row;
+}
+
+.imglogo {
+    width: 70px;
+    height: 70px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navigation a {
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* DIV ENSEIGNEMENT ET RECHERCHE */
+
+.partie1 {
+    background-image: url(./img/01PIC.jpg);
+    height: 400px;
+}
+
+.esp {
+    border-radius: 20%;
+    padding: 10px;
+    background-color: rgb(54, 207, 92);
+}
+
+.lienesp {
+    text-decoration: none;
+    color: white;
+    
+}
